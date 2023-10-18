@@ -1,0 +1,150 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('./assets/pexels-julia-volk-5273044.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-color: #94618e;  */
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+h1 {
+  font-size: 2rem;
+  color: white; 
+  margin-bottom: 40px;
+  position: relative; 
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(249, 7, 104, 0.6);
+
+}
+
+button {
+  background-color: rgb(252, 79, 111); /* Bright red */
+  color: #fff;
+
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(17, 2, 70); /* Darker red on hover */
+}
+
+.modal {
+  background-color: rgba(255, 255, 255,0.7);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.modal h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding-left: 50px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #444;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button.make-order {
+  background-color: #33d9b2; /* Bright turquoise */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button.make-order:hover {
+  background-color: #2ecc71; /* Darker turquoise on hover */
+}
+
+.order {
+  background-color: rgba(255, 255, 255,0.7);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.order h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order .item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.order img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.order label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #555;
+}
+
+.order span {
+  font-size: 1rem;
+  color: #333;
+}
+.result {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
